@@ -1,3 +1,3 @@
-filename=input("Input the Filename:")
-f_extns=filename.split(".")
-print("The extension of the file is:"+repr(f_extns[-1]))
+n=input("Input the Filename:")
+extension=n.split(".")
+print("The extension of the file:","'",extension[-1],"'")
